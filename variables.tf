@@ -34,3 +34,9 @@ variable ansible_host_key_checking {
   type        = bool
   default     = false
 }
+
+variable ansible_playbook_path {
+  description = "ansible-playbook command path"
+  type        = string
+  default     = "ansible-playbook"
+}

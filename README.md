@@ -20,6 +20,7 @@ Terraform 0.12
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | ansible\_host\_key\_checking | Ansible variable to host key checking | `bool` | `false` | no |
+| ansible\_playbook\_path | ansible-playbook command path | `string` | `ansible-playbook` | no |
 | ansible\_ssh\_retries | Ansible variable to retry SSH connection. This is important to wait SSH connections in new instances. | `number` | `30` | no |
 | playbook | Path to playbook file. | `string` | n/a | yes |
 | private\_key | Path to SSH private key file. | `string` | n/a | yes |
